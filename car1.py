@@ -185,6 +185,8 @@ class Car:
         'Wheel1 Diameter: 16 inch, Wheel1 Tires: Summer, Wheel2 Diameter: 16 inch, Wheel2 Tires: Summer, Wheel3 Diameter: 16 inch, Wheel3 Tires: Summer, Wheel4 Diameter: 16 inch, Wheel4 Tires: Summer'
 
         >>> test_car1.wheels[0].change_wheel(new_diameter=Diameter(18), new_tires=TireType.SUMMER)
+        (Diameter(value=18), <TireType.SUMMER: 'Summer'>)
+
         >>> test_car1.display_wheel_info()
         Traceback (most recent call last):
         ...
